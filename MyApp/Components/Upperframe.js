@@ -32,13 +32,14 @@ const Upperframe = () => {
 
 const styles = StyleSheet.create({
     container:{
+        alignItems: 'center',
         borderColor: 'white',
         borderWidth: 0.5,
         width:'95%',
         height: '8%',
         flexDirection: 'row',
         position:'relative',
-        top:-328,
+        top:-305,
         borderTopEndRadius: 10,
         borderBottomEndRadius: 10,
 
@@ -47,6 +48,7 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
     },
     welcomeMessage: {
+        fontWeight: 'bold',
         fontSize: 35,
         paddingLeft: 7
     },
