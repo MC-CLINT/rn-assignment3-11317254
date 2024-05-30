@@ -1,17 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View} from 'react-native';
 import Upperframe from './Components/Upperframe.js';
 import Searchbar from './Components/Searchbar.js';
+import Categ from './Components/Categories.js';
+import OngoingSec from './Components/ongoingSection.js';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+      <ScrollView style={styles.container}>
       <Upperframe/>
 
       <Searchbar/>
-      <Text>Open up App.js to start working on your app!</Text>
+
+      <Text style = {{ fontWeight:'bold', position:'relative', bottom: 350, right:-15, fontSize: 30}}>
+            Categories
+        </Text>
+      <Categ/>
+      <OngoingSec/>
       <StatusBar style="auto" />
-    </View>
+      
+      </ScrollView>
   );
 }
 
@@ -19,7 +27,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F7F0E8',
-    alignItems: 'center',
-    justifyContent: 'center',
+    
   },
 });

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pressable } from 'react-native';
-import { Text, View, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { TextInput } from 'react-native';
 
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
         height: '6%',
         flexDirection: 'row',
         position:'relative',
-        top:-295,
+        top:-330,
 
     },
 
@@ -51,16 +51,17 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         verticalAlign: 'middle',
         backgroundColor: 'white',
-        height: 35,
+        height: 40,
         width: 240,
-        marginLeft:5,
+        marginLeft:10,
+        marginTop:10,
         borderRadius: 15 
     },
 
     searchIcon:{
         position: 'fixed',
         right: 100,
-        bottom: 15
+        bottom: 18
         
     }, 
     searchText: {
@@ -73,8 +74,8 @@ const styles = StyleSheet.create({
     filterArea:{
         backgroundColor: '#F0522F',
         width: 50,
-        height: '97%',
-        marginRight:20,
+        height: '35%',
+        marginRight:10,
         borderRadius: 12,
     },
     filterIcon:{

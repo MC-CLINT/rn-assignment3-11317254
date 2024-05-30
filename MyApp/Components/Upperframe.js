@@ -36,12 +36,13 @@ const styles = StyleSheet.create({
         borderColor: 'white',
         borderWidth: 0.5,
         width:'95%',
-        height: '8%',
+        height: '3%',
         flexDirection: 'row',
         position:'relative',
-        top:-305,
         borderTopEndRadius: 10,
         borderBottomEndRadius: 10,
+        marginBottom: 280,
+        marginTop:50
 
     },
     textArea : {
