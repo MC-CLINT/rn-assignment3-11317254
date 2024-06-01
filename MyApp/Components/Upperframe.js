@@ -34,15 +34,16 @@ const styles = StyleSheet.create({
     container:{
         alignItems: 'center',
         borderColor: 'white',
-        borderWidth: 0.5,
+        borderWidth: 0.3,
         width:'95%',
-        height: '3%',
+        height: '10%',
         flexDirection: 'row',
         position:'relative',
         borderTopEndRadius: 10,
         borderBottomEndRadius: 10,
         marginBottom: 280,
-        marginTop:50
+        marginTop:50,
+        marginLeft: 10,
 
     },
     textArea : {

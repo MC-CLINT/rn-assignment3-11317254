@@ -44,11 +44,11 @@ const styles = StyleSheet.create({
     flexDirection:'row',
     justifyContent: 'flex-start',
     position:'relative',
-    left: 33,
+    left: 20,
     marginBottom: 10,
-    marginRight:344,
+    marginRight:350,
     backgroundColor:'white',
-    width: 320,
+    width: 330,
     height: 100,
     paddingBottom:10,
     borderRadius: 20,
@@ -57,16 +57,16 @@ const styles = StyleSheet.create({
     borderWidth: 0.5
   },
   SectionList:{
-    position:'relative',
-    top: -350,
+    position:'absolute',
+    top: 510,
     height:'100%',
 
   },
   header:{
-    fontSize:30,
+    fontSize:26,
     fontWeight:'bold',
     position:'relative',
-    right: -25,
+    right: -15,
     bottom: 5
   }
 

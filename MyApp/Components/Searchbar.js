@@ -39,10 +39,10 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
         width:'95%',
-        height: '6%',
+        height: 60,
         flexDirection: 'row',
-        position:'relative',
-        top:-330,
+        position:'absolute',
+        top:150,
 
     },
 
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
         verticalAlign: 'middle',
         backgroundColor: 'white',
         height: 40,
-        width: 240,
+        width: 250,
         marginLeft:10,
         marginTop:10,
         borderRadius: 15 
@@ -61,21 +61,21 @@ const styles = StyleSheet.create({
     searchIcon:{
         position: 'fixed',
         right: 100,
-        bottom: 18
+        bottom: -9
         
     }, 
     searchText: {
-        fontSize: 20,
-        position: 'relative',
-        bottom: -6,
-        right: 55,
-        
+        fontSize: 18,
+        position: 'absolute',
+        bottom: 6,
+        right: 160,
     },
     filterArea:{
         backgroundColor: '#F0522F',
         width: 50,
-        height: '35%',
-        marginRight:10,
+        height: 50,
+        marginRight:5,
+        marginTop:8,
         borderRadius: 12,
     },
     filterIcon:{

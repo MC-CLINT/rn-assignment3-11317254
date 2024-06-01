@@ -32,38 +32,40 @@ const Categ = () => (
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        position:'relative',
-        height: 350,
-        bottom: 350,
+        position:'absolute',
+        height: 230,
+        bottom: 290,
         marginBottom: 50
        
     },
     Card:{
         width: 200,
-        height: 290,
+        height: 200,
         borderRadius: 30,
         borderBottomEndRadius: 10,
         backgroundColor: '#F5F5F5',
-        margin: 10,
+        marginBottom: 30,
+        marginLeft:10,
         padding: 10,
     },
     image: {
         resizeMode:'cover',
-        width: '70%', 
+        width: '60%', 
         height: '60%', 
-        marginLeft:50,
+        marginLeft:70,
+        marginTop:30,
         marginBottom:10
     },
     title: {
         fontSize: 16,
         fontWeight: 'bold',
         position:'relative',
-        bottom: 165
+        bottom: 150
     },
     tasks: {
         fontSize: 14,
         position:'relative',
-        bottom: 165
+        bottom: 152
     },
 });
 
